@@ -9,10 +9,14 @@ import { RecipeComponent } from './recipe/recipe.component';
 import { RecipeListComponent } from './recipe/recipe-list/recipe-list.component';
 import { RecipeItemComponent } from './recipe/recipe-item/recipe-item.component';
 import { RecipeDetailComponent } from './recipe/recipe-detail/recipe-detail.component';
+import { HighlightDirective } from './highlight-directive/highlight-directive.directive';
+import { AppDropDownDirective } from './shared/dropdown.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
+    HighlightDirective,
+    AppDropDownDirective,
     HeaderComponent,
     ShoppingListComponent,
     ShoppingEditComponent,
